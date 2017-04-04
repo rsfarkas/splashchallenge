@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Roxy Farkas Splash Challenge</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+  <header>
+    <div class="intro blue lighten-4 z-depth-1">
+      <h1 class=" teal-text text-darken-4">Splash Cookout</h1>
+      <h4 class=" teal-text text-darken-4">Yep, it's that time of year again</h4>
+    </div>
+  </header>
+  <main>
+  <div class="container">
+    <div class="row mb50">
+      <div class="col s12 tac">
+        <p id="callAnim">There's nothin' like food from the grill, sipping a cold beer on the patio, especially when Splash picks up the bill! <br>We'll be hosting the Splash team at Freehold in BK where we've gone all out on some serious BBQ gear to add to their dope music and awesome games.<br>Winter was long and harsh so let's celebrate summer vibes together!<p>
+      </div>
+     </div><!--row--> 
+    <div class="col s12 tac">
+      <div class="row">
+        <button id="trigger" class="trigger-button" type="button">RSVP</button>
+        <div id="content">
+          <form class="col s12" action="https://formspree.io/roxannesfarkas@gmail.com" method="POST">
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="first_name" type="text" class="validate" name="first name" required>
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate" name="last name" required>
+                <label for="last_name">Last Name</label>
+              </div>
+            </div><!--row-->
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate" name="_replyto" required>
+                <label for="email">Email</label>
+              </div>
+            </div><!--row-->
+            <button class="btn waves-effect waves-light" type="submit" name="action">I'll be there!
+              <i class="material-icons right">send</i></button>
+            </form><!--form-->
+          </div><!--content-->
+        </div><!--row-->
+      </div><!--cols 12 tac--> 
+  </div><!--container-->
+  <div class="container">
+  <hr>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col m6 s12">
+        <ul id="fivew">
+          <li><span class="fiveq">Who:</span> The Whole Splash Crew</li>
+          <li><span class="fiveq">What:</span> Cookin' Out in Style</li>
+          <li><span class="fiveq">Where:</span> <a href="http://freeholdbrooklyn.com/" target="_blank">Freehold Brooklyn</a></li>
+          <li><span class="fiveq">When:</span> Saturday, June 24th 2017</li>
+        </ul><!--fivew-->
+      </div><!--col m6 s12-->
+      <div class="col m6 s12">
+        <div id="beerGroup">
+          <div class="pour"></div><!--pour-->
+          <div id="beaker">
+            <div class="beer-foam">
+              <div class="foam-1"></div>
+              <div class="foam-2"></div>
+              <div class="foam-3"></div>
+              <div class="foam-4"></div>
+              <div class="foam-5"></div>
+              <div class="foam-6"></div>
+              <div class="foam-7"></div>
+            </div><!--beer-foam-->
+            <div id="liquid">
+              <div class="bubble bubble1"></div>
+              <div class="bubble bubble2"></div>
+              <div class="bubble bubble3"></div>
+              <div class="bubble bubble4"></div>
+              <div class="bubble bubble5"></div>
+            </div><!--liquid-->
+          </div><!--beaker-->
+        </div><!--beer group-->
+      </div><!--col m6 s12-->
+    </div><!--row-->
+  </div><!--section-->
+  <div class="container">
+  <hr>
+  </div><!--container-->
+  <div class="container">
+  <div class="row mt50">
+    <div class="col s12 tac">
+      <p>All roads lead to Freehold, but where are you coming from?<p>
+      </div>
+    </div><!--row--> 
+    <div class="row">
+      <div class="col s12 m4 mb20 p0">
+        <button id="trigger2" class="trigger-button" type="button">Splash</button>
+        <div id="content2">
+          <p>Take the <img class="trainImg" src="imgs/f.jpeg" alt="f"> train to Delancey St then transfer to the <img class="trainImg" src="imgs/g.jpeg" alt="g"> and ride to Marcy Av. Freehold is on S 3rd St between Wythe Ave and Kent Ave. Should be about a 15 minute walk.</p>
+        </div><!--content2-->
+      </div><!--col s12 m4 mb20-->
+      <div class="col s12 m4 mb20 p0">
+        <button id="trigger3" class="trigger-button" type="button">Grand Central</button>
+        <div id="content3">
+          <p> Hop on the <img class="trainImg" src="imgs/4.jpeg" alt="4">, <img class="trainImg" src="imgs/5.jpeg" alt="5"> , or <img class="trainImg" src="imgs/6.jpeg" alt="6">  to Union Sq. Then grab the <img class="trainImg" src="imgs/l.jpeg" alt="l"> to Bedford Av. Freehold is on S 3rd St between Wythe Ave and Kent Ave. Should be about a 15 minute walk.</p>
+        </div><!--content3-->
+      </div><!--col s12 m4 mb20-->
+      <div class="col s12 m4 mb20 p0">
+        <button id="trigger4" class="trigger-button" type="button">Brooklyn</button>
+        <div id="content4">
+          <p>Might want to grab an Uber. Otherwise Take the <img class="trainImg" src="imgs/g.jpeg" alt="g"> from Fulton Street to Metropolitan Av. Freehold is on S 3rd St between Wythe Ave and Kent Ave. Should be about a 20 minute walk.</p>
+        </div><!--content4-->
+      </div><!--col s12 m4 mb20-->
+    </div><!--row-->
+  </div><!--container-->
+  <div class="container">
+    <div id="map"> </div>
+  </div><!--container-->
+ </main>
+ <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col s4">
+          <p class="fwb smallFont mt0 mb0"><a href="https://splashthat.com/product/try-splash-free" target="_blank">Try it Free</a></p>
+        </div><!--col s4-->
+        <div class="col s4">
+          <p class="fwb smallFont mt0 mb0"><a href="https://splashthat.com/request-a-demo" target="_blank">Talk to Sales</a></p>
+        </div> <!--col s4-->
+        <div class="col s4">
+          <p class="fwb smallFont mt0 mb0"> &copy 2017 Splash</p>
+        </div><!--col s4-->
+       </div><!--row-->
+    </div><!--container-->
+ </footer>
+<script type="text/javascript" src="js/modal.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+<script type="text/javascript" src="js/beer.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZPqJxHhopSQKIbkMlSJS59iC9a3H7lME&libraries=places"></script>
+<script type="text/javascript" src="js/map.js"></script>
+</body>
+</html>
